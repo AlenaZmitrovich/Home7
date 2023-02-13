@@ -1,0 +1,49 @@
+.header{
+    padding: 2rem;
+}
+
+.navbar{
+    padding-left: 15rem;
+    font-size: $font-14;
+    font-weight: $font-w-700;
+
+    &-brand{
+        font-size: $font-28;
+        font-weight: $font-w-500;
+        color: $color-black;
+
+        &_blue{
+            color: $color-blue;
+        }
+    }
+
+    &-nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+
+.nav-item{
+    padding-left: 5rem;
+}
+
+.nav-link{
+    color: $color-black;
+}
+
+.header-phone__image{
+        margin-right: 1rem;
+        margin-left: 2rem;
+}
+
+.header-mail{
+    text-decoration: none !important;
+    color: $color-black;
+}
+
+.p{
+    margin-right: 10rem;
+    opacity: .5;
+}

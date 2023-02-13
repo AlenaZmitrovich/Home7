@@ -1,0 +1,268 @@
+.h1{
+    font-size: $font-48;
+    font-weight: $font-w-900;
+    padding-top: 10rem;
+    letter-spacing: .3rem;
+}
+
+.banner {
+    padding: $p-3;
+    margin-bottom: $m-5;
+  
+    text-align: center;
+    color: $color-white;
+  
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/work-meeting.webp');
+    background-position: 50% 50%;
+    height: 45rem;
+    margin-bottom: 7rem;
+  }
+
+.section1-lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__list{
+        padding: $p-1;
+    }
+}
+
+.card__image{
+    width: 270px;
+    height: 120px;
+    background-color: $color-white--darken;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img-top{
+    width: 65px;
+    height: 70px;
+}
+
+.h3{
+    font-size: $font-14;
+    font-weight: $font-w-700;
+}
+
+.card-text{
+    font-size: $font-14;
+    font-weight: $font-w-400;
+    color: $color-gray;
+    line-height: 24px;
+}
+
+.h2{
+    text-align: center;
+    font-size: $font-36;
+    font-weight: $font-w-700;
+    margin-bottom: 3rem;
+}
+
+.section2 {
+    margin-top: $m-6;
+    padding-bottom: $p-6;
+
+    &-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+
+        &__image1 {
+            width: 370px;
+            height: 294px;
+            margin: $m-1-5;
+            background: url('../img/desktop-applications.png');
+            display: flex;
+            align-items: flex-end;
+
+            &__subtitle{
+                width: 370px;
+                height: 70px;
+                background-color: $color-black;
+                opacity: .8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &__title{
+                    font-size: $font-14;
+                    font-weight: $font-w-700;
+                    text-transform: uppercase;
+                    color: $color-white;
+
+                }
+            }
+        }
+
+        &__image2 {
+            width: 370px;
+            height: 294px;
+            margin: $m-1-5;
+            background: url('../img/mobile-applications.png');
+            background-size: 400px 300px;
+            display: flex;
+            align-items: flex-end;
+
+            &__subtitle{
+                width: 370px;
+                height: 70px;
+                background-color: $color-black;
+                opacity: .8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &__title{
+                    font-size: $font-14;
+                    font-weight: $font-w-700;
+                    text-transform: uppercase;
+                    color: $color-white;
+                }
+            }
+        }
+
+        &__image3 {
+            width: 370px;
+            height: 294px;
+            margin: $m-1-5;
+            background: url('../img/disigner-solutions.jpg');
+            background-size: 400px 300px;
+            display: flex;
+            align-items: flex-end;
+
+            &__subtitle{
+                width: 370px;
+                height: 70px;
+                background-color: $color-black;
+                opacity: .8;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                &__title{
+                    font-size: $font-14;
+                    font-weight: $font-w-700;
+                    text-transform: uppercase;
+                    color: $color-white;
+                }
+            }
+        }
+    }
+}
+
+.section3{
+    background-color: $color-blue--light;
+    padding-top: $p-6;
+    padding-bottom: $p-6;
+
+    &-div{
+        display: flex;
+        justify-content: center;
+
+        &-lists {
+            display: flex;
+
+            &__list {
+
+                &__card {
+                    margin: $m-1;
+                    box-shadow: .5px 2px .5px $color-gray;
+                
+                    &__photo{
+                        width: 270px;
+                        height: 260px;
+
+                        &__img{
+                            width: 270px;
+                            height: 260px;
+                        }
+                    }
+
+                    &__name{
+                        background-color: $color-white;
+                        text-align: center;
+                        padding-top: $p-3;
+                        
+                        &_black{
+                            font-size: $font-16;
+                            font-weight: $font-w-700;
+                        }
+
+                        &_gray{
+                            font-size: $font-16;
+                            font-weight: $font-w-400;
+                            color: $color-gray;
+                            padding-top: $p-1;
+                            padding-bottom: $p-2;
+                        }
+                    }
+
+                    &__media{
+                        background-color: $color-white;
+                        padding-bottom: $p-3;
+
+                        &_lists{
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-evenly;
+
+                            &_list{
+
+                                &_img{
+                                    width: 30px;
+                                    height: 30px;
+                                }
+                            }
+
+                            &_list:hover{
+                                background-color: $color-blue;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section4{
+    margin-top: $m-6;
+    margin-bottom: $m-6;
+
+    &-div{
+
+        &-lists{
+            display: flex;
+            justify-content: center;
+           
+
+            &__list{
+                border: 1px solid $color-gray;
+                width: 170px;
+                height: 92px;
+                margin: $m-1-5;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &__btn{
+
+
+                    &_img{
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+            }
+
+            &__list:hover{
+                border: 1px solid $color-blue;
+            }
+        }
+    }
+}
